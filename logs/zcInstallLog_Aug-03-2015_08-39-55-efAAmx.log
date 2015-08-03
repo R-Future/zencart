@@ -1,0 +1,82 @@
+---------------
+Aug 03 2015 8:39 -- inspect
+CURL有问题:  28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:40 -- inspect
+CURL需要SSL支持，请联系主机商。 28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:40 -- inspect
+System Inspection Results: 
+------------------------------
+NA: 服务器 => Apache/2.4.9 (Win64) PHP/5.5.12
+NA: HTTP主机 => localhost
+NA: 转换路径 => E:/wamp/www/zc_zh/zc_install/index.php(SCRIPT_FILENAME)
+NA: 真实路径 => E:\wamp\www\zc_zh
+NA: PHP O/S => WINNT
+NA: PHP API模式 => apache2handler
+NA: PHP页面最大执行时间 => 120
+OK: MySQL支持 => ON
+OK: PHP版本 => 5.5.12
+OK: PHP Sessions 支持 => ON
+OK: PHP Session.AutoStart => OFF
+OK: PHP session.use_trans_sid => OFF
+OK: 建议SQL缓存目录 => E:/wamp/www/zc_zh/cache
+OK: PHP GD 支持 => ON
+OK: GD Version => GD bundled (2.1.0 compatible)
+OK: PHP ZLIB 压缩支持 => ON
+OK: PHP OpenSSL 支持 => ON
+OK: PHP cURL 支持 => ON
+WARN: CURL 非SSL功能 => CURL有问题:  28 => Connection timed out after 11000 milliseconds
+WARN: CURL SSL功能 => CURL需要SSL支持，请联系主机商。 28 => Connection timed out after 11000 milliseconds
+OK: PHP 上传支持 => ON  upload_max_filesize=64M;  post_max_size=3M
+OK: PHP 上传临时目录 => E:/wamp/tmp
+OK: Apache .htaccess 支持 => ON
+NA: PHP include_path => .;C:\php\pear
+NA: PHP SMTP 目标 => localhost
+NA: PHP sendmail 路径 => 
+NA: PHP sendmail 发件人 => 390752927@qq.com
+OK: PHP open_basedir 限制 => 
+OK: PHP 输出缓存 (gzip) => ON
+OK: PHP XML 支持 => ON
+OK: PHP Session.Save_Path => E:\wamp\www\zc_zh\cache-->可写
+OK: includes/configure.php =>  可写
+OK: admin/includes/configure.php =>  可写
+OK: cache => OK 777 read/write/execute
+OK: images => OK 777 read/write/execute (INCLUDE SUBDIRECTORIES TOO)
+OK: includes/languages/english/html_includes => OK 777 read/write (INCLUDE SUBDIRECTORIES TOO)
+OK: logs => OK 777 read/write/execute
+OK: media => OK 777 read/write/execute
+OK: pub => OK 777 read/write/execute
+OK: admin/backups => OK 777 read/write
+OK: admin/images/graphs => OK 777 read/write/execute
+PHP Extensions compiled: Core, bcmath, calendar, ctype, date, ereg, filter, ftp, hash, iconv, json, mcrypt, SPL, odbc, pcre, Reflection, session, standard, mysqlnd, tokenizer, zip, zlib, libxml, dom, PDO, bz2, SimpleXML, wddx, xml, xmlreader, xmlwriter, apache2handler, openssl, curl, com_dotnet, fileinfo, gd, gettext, gmp, imap, mbstring, exif, mysql, mysqli, Phar, pdo_mysql, pdo_sqlite, shmop, soap, sockets, sqlite3, xmlrpc, xsl, mhash, xdebug
+------------------------------
+
+
+---------------
+Aug 03 2015 8:40 -- inspect
+CURL有问题:  28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:41 -- inspect
+CURL需要SSL支持，请联系主机商。 28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:41 -- database_setup1
+Installer - Page: database_setup -- collected information: Array
+(
+    [language] => schinese
+    [DIR_FS_SQL_CACHE] => E:/wamp/www/zc_zh/cache
+    [DB_TYPE] => mysql
+    [DB_PREFIX] => 
+    [DB_CHARSET] => utf8
+    [DB_SERVER] => localhost
+    [DB_SERVER_USERNAME] => *****
+    [DB_SERVER_PASSWORD] => ***private***
+    [DB_DATABASE] => zencart
+    [SQL_CACHE_METHOD] => file
+)
+
+

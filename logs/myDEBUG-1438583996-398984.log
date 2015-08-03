@@ -1,0 +1,11 @@
+[03-Aug-2015 08:39:57 Europe/Paris] PHP Fatal error:  1146:Table 'zencart.table_slideshow' doesn't exist :: SELECT * FROM TABLE_SLIDESHOW ==> (as called by) E:\wamp\www\zc\includes\languages\english\html_includes\define_main_page.php on line 30 <== in E:\wamp\www\zc\includes\classes\db\mysql\query_factory.php on line 155
+[03-Aug-2015 08:39:57 Europe/Paris] PHP Stack trace:
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   1. {main}() E:\wamp\www\zc\index.php:0
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   2. require() E:\wamp\www\zc\index.php:117
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   3. require() E:\wamp\www\zc\includes\templates\abagon\common\tpl_main_page.php:169
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   4. require() E:\wamp\www\zc\includes\modules\pages\index\main_template_vars.php:219
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   5. require() E:\wamp\www\zc\includes\templates\abagon\templates\tpl_index_default.php:42
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   6. queryFactory->Execute() E:\wamp\www\zc\includes\languages\english\html_includes\define_main_page.php:30
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   7. queryFactory->set_error() E:\wamp\www\zc\includes\classes\db\mysql\query_factory.php:262
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   8. queryFactory->show_error() E:\wamp\www\zc\includes\classes\db\mysql\query_factory.php:132
+[03-Aug-2015 08:39:57 Europe/Paris] PHP   9. trigger_error() E:\wamp\www\zc\includes\classes\db\mysql\query_factory.php:155

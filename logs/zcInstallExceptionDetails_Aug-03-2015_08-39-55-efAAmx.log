@@ -1,0 +1,16 @@
+---------------
+Aug 03 2015 8:39 -- inspect
+CURL有问题:  28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:40 -- inspect
+CURL需要SSL支持，请联系主机商。 28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:40 -- inspect
+CURL有问题:  28 => Connection timed out after 11000 milliseconds
+
+---------------
+Aug 03 2015 8:41 -- inspect
+CURL需要SSL支持，请联系主机商。 28 => Connection timed out after 11000 milliseconds
+
